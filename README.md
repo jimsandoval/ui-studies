@@ -1,4 +1,6 @@
-# ui
+# ui-studies
+
+Short dives into various aspects of Vue/Bootstrap.
 
 ## Project setup
 ```

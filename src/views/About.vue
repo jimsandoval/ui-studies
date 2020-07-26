@@ -1,5 +1,15 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<b-container>
+  <b-row>
+    <b-col>
+      <h2>About</h2>
+      <p>
+        These are a collection of UI studies using vue bootstrap
+      </p>
+      <p>
+        July 2020
+      </p>
+    </b-col>
+  </b-row>
+</b-container>
 </template>

@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Colors from '../views/Colors.vue'
+import ResponsiveTables from '../views/ResponsiveTables.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Colors',
+    component: Colors
+  },
+  {
+    path: '/tables',
+    name: 'Responsive Tables',
+    component: ResponsiveTables
   },
   {
     path: '/about',
